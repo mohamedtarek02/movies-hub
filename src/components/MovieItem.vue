@@ -15,7 +15,7 @@
         @click="showDetails"
       ></div>
     </div>
-    <div class="details-con" @click="showDetails">
+    <div class="details-con">
       <h3 class="movie-name">{{ name }}</h3>
       <p class="movie-desc">{{ description }}</p>
     </div>
@@ -63,9 +63,6 @@ export default {
       } else {
         return;
       }
-    },
-    showDetails(disable = false) {
-      console.log("details");
     },
   },
 };
