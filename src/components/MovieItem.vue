@@ -75,7 +75,6 @@ export default {
   width: 23%;
   margin: 20px 1%;
   position: relative;
-  cursor: pointer;
   display: flex;
   flex-direction: column;
 }
@@ -115,6 +114,7 @@ i {
   top: 7px;
   left: 8px;
   margin: 0px auto;
+  cursor: pointer;
 }
 i:hover {
   scale: 1.1;
